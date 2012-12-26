@@ -8,5 +8,8 @@
       (map (partial apply +))))
    [1M]))
 
-(defn pascal-lazy-row [n]
+(defn pascal-lazy [n]
   (last (take n pascal)))
+
+(defn pascal-lazy-max [n]
+  (reduce max (pascal-lazy n)))
