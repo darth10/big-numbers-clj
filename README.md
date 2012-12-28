@@ -1,13 +1,9 @@
 # big-numbers-clj
 
-FIXME: write description
+Simple examples to demonstrate Clojure's awesome behaviour with extrememly large numbers.
 
-## Usage
+The following examples are implemented.
+* Fibonacci sequence
+* Pascal's triangle
 
-FIXME: write
-
-## License
-
-Copyright (C) 2012 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Take a look at the tests for sample code.
